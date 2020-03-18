@@ -1,15 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { StyledCard } from './styles/StyledCard';
 
-const Card = ({type, props}) => {
+const Card = ({type, onClick}) => {
 
 
 	return (
-        'Holi'
-		// <StyledCard role="button" onClick={props.onClick}>
-        //     {type}
-		// </StyledCard>
+		<StyledCard role="button" onClick={onClick}>
+            {type}
+		</StyledCard>
 	);
 }
 
