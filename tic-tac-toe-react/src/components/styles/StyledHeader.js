@@ -30,7 +30,6 @@ export const StyledNav = styled.nav`
     &:hover {
       background-color: #fff;
       color: #3A5939;
-      font-weight: bold;
     }
   }
 

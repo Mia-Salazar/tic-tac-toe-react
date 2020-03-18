@@ -20,4 +20,33 @@ export const StyledGame = styled.section`
         display: table;
     }
 
+    .next-player {
+        font-family: 'Rubik', sans-serif;
+        font-size: 18px;
+    }
+
+    .game-info{
+        display: flex;
+        justify-content: center;
+    }
+
+    .winner {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        color: black;
+        font-size: 32px;
+        font-family: 'Rubik', sans-serif;
+
+        &:after {
+            content: '';
+            position: absolute;
+            right: -7px;
+            background-color: #5b8c5a;
+            width: 33px;
+            height: 40px;
+            z-index: -1;
+        }
+    }
+
 `;

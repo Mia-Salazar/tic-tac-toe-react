@@ -1,7 +1,11 @@
 {
-    "title": "Welcome to react using react-i18next",
-    "description": {
-      "part1": "To get started, edit <1>src/App.js</1> and save to reload.",
-      "part2": "Switch language between english and german using buttons above."
-    }
+  "author": "Autora",
+  "winner": "El ganador es {{winner}}",
+  "draw": "Empate",
+  "nextX": "El siguiente jugador es <strong>X</strong>",
+  "nextO": "El siguiente jugador es <strong>O</strong>",
+  "play": "Jugar otra vez",
+  "footer": {
+    "thanks": "Gracias a "
   }
+}
